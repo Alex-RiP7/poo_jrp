@@ -15,6 +15,17 @@ class Casa:
         self.anio_construccion = anio_construccion
         self.precio = precio
 
+        print(f"Direccion: {self.direccion}")
+        print(f"Color: {self.color}")
+        print(f"Pisios: {self.numero_pisos}")
+        print(f"Habitaciones: {self.habitaciones}")
+        print(f"Baños: {self.banos}")
+        print(f"Área construida: {self.area_construida}")
+        print(f"Garage: {self.garage}")
+        print(f"Jardín: {self.jardin}")
+        print(f"Año de construcción: {self.anio_construccion}")
+        print(f"Precio: {self.precio}")
+
     def abrir_puerta(self):
         print("Puerta principal abierta.")
 
