@@ -9,8 +9,8 @@ class Casa:
         self.numero_pisos = numero_pisos
         self.habitaciones = habitaciones
         self.banos = banos
-        self.area_construida = area_contruida
-        self.garage = garaje
+        self.area_construida = area_construida
+        self.garage = garage
         self.jardin = jardin
         self.anio_construccion = anio_construccion
         self.precio = precio
@@ -33,6 +33,6 @@ class Casa:
         print("Luces encendidas.")
 
     def mostrar_informacion(self):
-        print("Detalles de la casa)
+        print("Detalles de la casa")
         print(f"{self.direccion} | {self.habitaciones} habitaciones")
               
