@@ -1,4 +1,4 @@
-class Univiersidad:
+class Universidad:
     def __init__(self, nombre, localidad, rector, carreras, alumnos, campus, fundacion, tipo, pagina_web, telefono):
         self.nombre = nombre
         self.localidad = localidad
