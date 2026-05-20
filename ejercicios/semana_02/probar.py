@@ -121,5 +121,5 @@ if __name__ == "__main__":
         velocidad_max=180, combustible="Gasolina",
         kilometraje=8500, precio="$320,000"
     )
-    mi_coche.encender()
-    mi_coche.tocar_bocina()
+mi_coche.encender()
+mi_coche.tocar_bocina()

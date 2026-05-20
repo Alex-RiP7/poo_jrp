@@ -16,13 +16,13 @@ class Coche:
         print(f"Color:{self.color}")
         print(f"Año:{self.anio}")
         print(f"Placas:{self.placas}")
-        print(f"Puertas:{self.puertas}")
+        print(f"Puertas:{self.numero_puertas}")
         print(f"Velocidad Máxima:{self.velocidad_max}")
         print(f"Combustible:{self.combustible}")
         print(f"Kilometraje:{self.kilometraje}")
         print(f"Precio:{self.precio}")
 
-    def enceder(self): print(f"El coche {self.marca} {self.modelo} se ha encendido.")
+    def encender(self): print(f"El coche {self.marca} {self.modelo} se ha encendido.")
     def mover(self): print(f"{self.marca} {self.modelo} esta en movimiento.")
     def tocar_bocina(self):
         print("Pii piiip")
