@@ -5,6 +5,7 @@ from universidad import Universidad
 from telefono import Telefono
 from libro_biblioteca import Libro
 from transporte import Transporte
+from alumno import Alumno
 from perro import Perro
 from p_videojuego import PersonajeVideojuego
 from coche import Coche
@@ -121,5 +122,25 @@ if __name__ == "__main__":
         velocidad_max=180, combustible="Gasolina",
         kilometraje=8500, precio="$320,000"
     )
-mi_coche.encender()
-mi_coche.tocar_bocina()
+    mi_coche.encender()
+    mi_coche.tocar_bocina()
+
+    # 11. ALUMNO 
+    print("Prueba de Alumno")
+    alumno1 = Alumno(
+        nombre="Juan Pérez López",
+        matricula="22120045",
+        carrera="Ingeniería en Mecatrónica",
+        semestre=5,
+        edad=21,
+        genero="Masculino",
+        promedio=9.2,
+        email_institucional="22120045@utpuebla.edu.mx",
+        telefono="222 345 6789",
+        estatus="Activo"
+    )
+    alumno1.mostrar_informacion()
+    alumno1.estudiar()
+    alumno1.inscribir_materia("Programación Orientada a Objetos")
+    
+    
